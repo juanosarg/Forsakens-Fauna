@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  <!--========== Dragon leather ============-->
+
+
+  
+    <ThingDef ParentName="LeatherBase">
+    <defName>Leather_ForsakenDragon</defName>
+    <label>forsaken dragon scales</label>
+    <description>Hard overlapping scales of draconic chitin. It is exceptionally durable in combat, but provides little protection from weather.</description>
+    <graphicData>
+		<texPath>Resource/FO_Chitin</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <color>(43,43,43)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.2</MarketValue>
+      <StuffPower_Armor_Sharp>1.55</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(43,43,43)</color>
+      <commonality>0</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  
+
+
+</Defs>
