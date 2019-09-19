@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>Forsakens Module 1</name>
+	<name>Forsakens: Fauna and Flora</name>
 	<author>Kikohi</author>
 	<supportedVersions>
 		<li>1.0</li>
 	</supportedVersions>
-<description>Forsakens mod, updated by Kikohi. Base mod by ChJees and Smegma Soup</description>
+	<description>
+		This mod adds several new flora and fauna types to your rimworld gameplay experience, content and features requested by the community including the amazing art of our newest teammember and artist Sarg.
+
+		Working as a module for Forsakens, this mod extends the overall variety in a hand-to-hand way by a patching system, while focusing on expanding the themed flora and fauna of your regular runthroughs. Adding some nocturnal creatures, ancient forsaken dragons, animals as horrifying hunters, with nightvision and -activity. New animals, plants and meals, fitting the forsakens theme, and expanding your colonies possibilities even further!
+	</description>
 </ModMetaData>
