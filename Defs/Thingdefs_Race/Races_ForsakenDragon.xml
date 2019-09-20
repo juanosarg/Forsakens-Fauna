@@ -90,7 +90,7 @@
 				<accuracyLong>0.1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>FO_FlameBreath</defaultProjectile>
-				<warmupTime>0.3</warmupTime>
+				<warmupTime>0.6</warmupTime>
 				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 				<forcedMissRadius>2</forcedMissRadius>
 
@@ -153,7 +153,7 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>FO_ForsakenDragon</defName>
+		<defName>FO_Behemot</defName>
 		<label>Behemot</label>
 		<race>FO_ForsakenDragon</race>
 		<combatPower>300</combatPower>
