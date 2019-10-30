@@ -37,7 +37,7 @@
 		<label>night wool</label>
 		<description>This dark hued wool is soft, light and provides very good insulation. Stronger than other similar wools.</description>
 		<graphicData>
-			<color>(45,45,57)</color>
+			<texPath>Resource/FO_NightWool</texPath>
 		</graphicData>
 		<statBases>
 			<StuffPower_Armor_Sharp>0.60</StuffPower_Armor_Sharp>
