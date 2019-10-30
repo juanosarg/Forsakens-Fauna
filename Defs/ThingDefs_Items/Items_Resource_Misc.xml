@@ -5,8 +5,8 @@
 	
 <ThingDef ParentName="OrganicProductBase">
     <defName>FO_NightMilk</defName>
-    <label>blue milk</label>
-    <description>"Milk" from a frostbound behemoth. Very nutritive but the colour is more than a little unsettling.</description>
+    <label>night milk</label>
+    <description>Very nutritive but the colour is more than a little unsettling.</description>
     <graphicData>
       <texPath>Resource/FO_NightMilk</texPath>
     </graphicData>
