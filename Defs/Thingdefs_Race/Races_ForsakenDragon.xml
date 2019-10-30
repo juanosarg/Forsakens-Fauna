@@ -163,7 +163,7 @@
 
 				<bodyGraphicData>
 					<texPath>Animals/FO_ForsakenDragon/FO_ForsakenDragon</texPath>
-					<drawSize>2.8</drawSize>
+					<drawSize>4.2</drawSize>
 					<shadowData>
 						<volume>(0.475, 0.2, 0.3)</volume>
 						<offset>(0,0,-0.2)</offset>
@@ -171,14 +171,14 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Animals/FO_ForsakenDragon/FO_Dessicated_ForsakenDragon</texPath>
-					<drawSize>2.8</drawSize>
+					<drawSize>4.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 
 				<bodyGraphicData>
 					<texPath>Animals/FO_ForsakenDragon/FO_ForsakenDragon</texPath>
-					<drawSize>3.85</drawSize>
+					<drawSize>5.77</drawSize>
 					<shadowData>
 						<volume>(0.72, 0.3, 0.45)</volume>
 						<offset>(0,0,-0.25)</offset>
@@ -186,13 +186,13 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Animals/FO_ForsakenDragon/FO_Dessicated_ForsakenDragon</texPath>
-					<drawSize>3.85</drawSize>
+					<drawSize>5.77</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>Animals/FO_ForsakenDragon/FO_ForsakenDragon</texPath>
-					<drawSize>6.5</drawSize>
+					<drawSize>9.75</drawSize>
 					<shadowData>
 						<volume>(0.95, 0.4, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -200,7 +200,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Animals/FO_ForsakenDragon/FO_Dessicated_ForsakenDragon</texPath>
-					<drawSize>6.5</drawSize>
+					<drawSize>9.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
