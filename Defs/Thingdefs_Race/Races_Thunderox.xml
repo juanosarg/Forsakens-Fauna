@@ -2,9 +2,9 @@
 <Defs>
 
  <ThingDef ParentName="AnimalThingBase">
-    <defName>FO_WoolyDuskling</defName>
-	<label>wooly duskling</label>
-    <description>Description here</description>
+    <defName>FO_Thunderox</defName>
+	<label>thunderox</label>
+    <description>The Thunderox is a peaceful and shy farm animal. Thunderox originate from a RimWorld orbiting a very faint star -the native planet of an elusive alien spacies know as Forsakens- so they have adapted to environments with low sunlight. They were domesticated by the Forsakens millenia ago, and can be found roaming around some other planets in the Rim.\n\nThunderox produce a low amount of strange dark milk, and a hardy wool. Similar to the Nightling, another creature from the Forsakens' planet, their back is crowned by dangerous quills, though the Thunderox lacks the capacity to throw them as defensive weapons.</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>
       <MarketValue>350</MarketValue>
@@ -56,7 +56,7 @@
       <li Class="CompProperties_Milkable">
         <milkDef>FO_NightMilk</milkDef>
         <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>12</milkAmount>
+        <milkAmount>8</milkAmount>
       </li>
 	  <li Class="CompProperties_Shearable">
         <woolDef>FO_NightWool</woolDef>
@@ -119,9 +119,9 @@
     </tradeTags>
   </ThingDef>
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>FO_WoolyDuskling</defName>
-    <label>wooly duskling</label>
-    <race>FO_WoolyDuskling</race>
+    <defName>FO_Thunderox</defName>
+    <label>thunderox</label>
+    <race>FO_Thunderox</race>
     <combatPower>100</combatPower>
     <ecoSystemWeight>1.1</ecoSystemWeight>
     <wildGroupSize>
@@ -130,8 +130,8 @@
     </wildGroupSize>
     <lifeStages>
       <li>
-        <label>wooly duskling calf</label>
-        <labelPlural>wooly duskling calves</labelPlural>
+        <label>thunderox calf</label>
+        <labelPlural>thunderox calves</labelPlural>
         <bodyGraphicData>
           <texPath>Animals/FO_WoolyDuskling/FO_WoolyDuskling</texPath>
           <drawSize>1.5</drawSize>

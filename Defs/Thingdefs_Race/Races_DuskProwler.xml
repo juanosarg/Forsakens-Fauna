@@ -58,7 +58,7 @@
 			
    
     <race>
-      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <body>FO_FourEyedQuadruped</body>
       <predator>true</predator>     
       <baseBodySize>1.5</baseBodySize>
       <baseHungerRate>0.15</baseHungerRate>
@@ -104,7 +104,20 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-     
+		<wildBiomes>
+				<IceSheet>0.01</IceSheet>
+			<SeaIce>0.01</SeaIce>
+			<BorealForest>0.1</BorealForest>
+			<Tundra>0.03</Tundra>
+			<ColdBog>0.03</ColdBog>
+			<TemperateForest>0.1</TemperateForest>
+			<TemperateSwamp>0.05</TemperateSwamp>
+			<TropicalRainforest>0.05</TropicalRainforest>
+			<TropicalSwamp>0.04</TropicalSwamp>
+			<AridShrubland>0.04</AridShrubland>
+			<Desert>0.03</Desert>
+			<ExtremeDesert>0.02</ExtremeDesert>      
+	  </wildBiomes>
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>
@@ -160,7 +173,7 @@
       </li>
     </lifeStages>
    
-    <ecoSystemWeight>0.9</ecoSystemWeight>
+    <ecoSystemWeight>1.5</ecoSystemWeight>
    
   </PawnKindDef>
 

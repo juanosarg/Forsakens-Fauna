@@ -121,7 +121,7 @@
 			<gestationPeriodDays>45</gestationPeriodDays>
 			<manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
-
+			<packAnimal>true</packAnimal>
 			<lifeExpectancy>450</lifeExpectancy>
 			<lifeStageAges>
 				<li>

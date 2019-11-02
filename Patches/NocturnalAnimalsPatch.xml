@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-     <!-- Wooly Duskling -->
+     <!-- Thunderox -->
     <Operation Class="PatchOperationAddModExtension">
-        <xpath>/Defs/ThingDef[defName="FO_WoolyDuskling"]</xpath>
+        <xpath>/Defs/ThingDef[defName="FO_Thunderox"]</xpath>
         <value>
             <li Class="NocturnalAnimals.ExtendedRaceProperties">
                 <bodyClock>Nocturnal</bodyClock>
