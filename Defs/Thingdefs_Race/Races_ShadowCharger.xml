@@ -11,7 +11,7 @@
       <MarketValue>550</MarketValue>
     </statBases>
     <tools>
-		<li>
+	<li>
         <label>horn</label>
         <capacities>
           <li>Scratch</li>
@@ -80,6 +80,9 @@
       <gestationPeriodDays>25</gestationPeriodDays>    
       <wildness>0.7</wildness>
     
+	  <useMeatFrom>Cow</useMeatFrom>
+	  <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+
       <lifeExpectancy>17</lifeExpectancy>
       <lifeStageAges>
         <li>

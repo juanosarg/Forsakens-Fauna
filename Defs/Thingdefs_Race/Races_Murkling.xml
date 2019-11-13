@@ -2,9 +2,9 @@
 <Defs>
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>FO_Murkling</defName>
+		<defName>FO_RMurkling</defName>
 		<label>murkling</label>
-		<description>.</description>
+		<description>A distant relative of the nightling, murklings are in fact, quite their opposite. They are not as fierce nor are they proficient hunters, often scavenging in packs for scraps left behind by the more apt predators.  Their most distinctive features are the abnormally elongated structures on their snouts, which are theorized to produce specific vibrational sequences that allow for discrete communication between pack members. Their physical weakness is compensated for with above average intellect, allowing them to outsmart organisms as intelligent as the Forsaken. Their reputation for stealthily stealing supplies across the rim has earned them the nickname 'thief of the night'.</description>
 		<statBases>
 			<MoveSpeed>5.1</MoveSpeed>
 			<MarketValue>35</MarketValue>
@@ -30,6 +30,7 @@
 				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
 			</li>
 			<li>
+				<label>plague carrier</label>
 				<capacities>
 					<li>FO_PlaguedBite</li>
 				</capacities>
@@ -37,6 +38,16 @@
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>poisonous bite</label>
+				<capacities>
+					<li>ToxicBite</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.2</chanceFactor>
 			</li>
 			<li>
 				<label>head</label>
@@ -47,7 +58,7 @@
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-				<chanceFactor>0.2</chanceFactor>
+				<chanceFactor>0.1</chanceFactor>
 			</li>
 		</tools>
 
@@ -55,12 +66,16 @@
 
 			<body>FO_FourEyedQuadruped</body>
 			<baseBodySize>0.35</baseBodySize>
-			<baseHealthScale>0.25</baseHealthScale>
-			<baseHungerRate>0.20</baseHungerRate>
+			<baseHealthScale>0.40</baseHealthScale>
+			<baseHungerRate>0.20</baseHungerRate>	
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Night</leatherDef>
 			<gestationPeriodDays>15</gestationPeriodDays>
 			<wildness>0.6</wildness>
+
+			<useMeatFrom>Rat</useMeatFrom>
+			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
+
 			<trainability>Simple</trainability>
 			<packAnimal>false</packAnimal>
 			<lifeExpectancy>6</lifeExpectancy>
@@ -104,8 +119,9 @@
 			
 		</tradeTags>
 	</ThingDef>
+
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>FO_Murkling</defName>
+		<defName>FO_RMurkling</defName>
 		<label>murkling</label>
 		<race>FO_Murkling</race>
 		<combatPower>40</combatPower>

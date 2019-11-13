@@ -13,9 +13,19 @@
     </statBases>
     <tools>
       <li>
-        <label>head</label>
+        <label>battleram</label>
         <capacities>
           <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>runehorn</label>
+        <capacities>
+          <li>Stab</li>
         </capacities>
         <power>15</power>
         <cooldownTime>2.6</cooldownTime>
@@ -75,6 +85,10 @@
       <leatherDef>Leather_Night</leatherDef>
       <gestationPeriodDays>28</gestationPeriodDays>
       <wildness>0.6</wildness>
+
+	  <useMeatFrom>Cow</useMeatFrom>
+	  <manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+
       <trainability>Simple</trainability>
       <packAnimal>false</packAnimal>
       <lifeExpectancy>15</lifeExpectancy>

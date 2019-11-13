@@ -8,9 +8,6 @@
 -->
 
 <Defs>
-
-
-	
 	<BodyDef>
 		<defName>FO_FourEyedQuadruped</defName>
 		<label>four eyed quadruped animal</label>
@@ -22,6 +19,9 @@
 				<li>
 					<def>Tail</def>
 					<coverage>0.07</coverage>
+					<groups>
+						<li>Tail</li>
+					</groups>
 				</li>
 				<li>
 					<def>Spine</def>
@@ -75,9 +75,9 @@
 						<li>
 							<def>Head</def>
 							<coverage>0.75</coverage>
-              <groups>
-                <li>HeadAttackTool</li>
-              </groups>
+							<groups>
+								<li>HeadAttackTool</li>
+							</groups>
 							<parts>
 								<li>
 									<def>Skull</def>
@@ -91,26 +91,26 @@
 										</li>
 									</parts>
 								</li>
-								 <li>
-                  <def>Eye</def>
-                  <customLabel>first left eye</customLabel>
-                  <coverage>0.06</coverage>
-                </li>
-                <li>
-                  <def>Eye</def>
-                  <customLabel>first right eye</customLabel>
-                  <coverage>0.06</coverage>
-                </li>
-				 <li>
-                  <def>Eye</def>
-                  <customLabel>second left eye</customLabel>
-                  <coverage>0.06</coverage>
-                </li>
-                <li>
-                  <def>Eye</def>
-                  <customLabel>second right eye</customLabel>
-                  <coverage>0.06</coverage>
-                </li>
+								<li>
+									<def>Eye</def>
+									<customLabel>first left eye</customLabel>
+									<coverage>0.06</coverage>
+								</li>
+								<li>
+									<def>Eye</def>
+									<customLabel>first right eye</customLabel>
+									<coverage>0.06</coverage>
+								</li>
+								<li>
+									<def>Eye</def>
+									<customLabel>second left eye</customLabel>
+									<coverage>0.06</coverage>
+								</li>
+								<li>
+									<def>Eye</def>
+									<customLabel>second right eye</customLabel>
+									<coverage>0.06</coverage>
+								</li>
 								<li>
 									<def>Ear</def>
 									<customLabel>left ear</customLabel>
@@ -197,7 +197,7 @@
 			</parts>
 		</corePart>
 	</BodyDef>
-	
-	
+
+
 
 </Defs>

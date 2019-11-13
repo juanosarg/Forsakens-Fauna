@@ -4,25 +4,34 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>FO_DuskProwler</defName>
     <label>dusk prowler</label>
-    <description>Description here</description>
+    <description>A result of failed animal weaponization trials, the Duskprowler is an ideal killing machine, built and modified to satisfy the requirements of fast paced warfare. The fierce nature of the prowler is reinforced further by the muscular protrusions on their back, which simultaneously act as both accelerators and as weapons. Their capability to overrun even the most well defended military facilities resulted in the systematic purge that was commissioned by the intergalactic federations centuries ago, in hopes of driving the prowlers to extinction. Thus, very few prowler sightings are reported across the rim nowadays, with those who see one almost never making it out alive to tell the tale.</description>
     <statBases>
       <MoveSpeed>6.00</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
-	  <ComfyTemperatureMax>30</ComfyTemperatureMax>
+      <ComfyTemperatureMax>30</ComfyTemperatureMax>
       <MarketValue>750</MarketValue>
-	  <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-	  <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
     </statBases>
     <tools>
+      <li>
+        <label>ninetails</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>0.2</cooldownTime>
+        <linkedBodyPartsGroup>Tail</linkedBodyPartsGroup>
+      </li>
       <li>
         <label>left claw</label>
         <capacities>
           <li>Scratch</li>
         </capacities>
         <power>16</power>
-        <cooldownTime>1.5</cooldownTime>
+        <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-       
+		<chanceFactor>0.25</chanceFactor>
       </li>
       <li>
         <label>right claw</label>
@@ -30,18 +39,26 @@
           <li>Scratch</li>
         </capacities>
         <power>16</power>
-        <cooldownTime>1.5</cooldownTime>
+        <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-       
+		<chanceFactor>0.25</chanceFactor>
       </li>
       <li>
         <capacities>
           <li>Bite</li>
         </capacities>
         <power>18</power>
-        <cooldownTime>2.0</cooldownTime>
+        <cooldownTime>3.6</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        
+		<chanceFactor>0.4</chanceFactor>
+		<surpriseAttack>
+			<extraMeleeDamages>
+				<li>
+					<def>Stun</def>
+					<amount>15</amount>
+				</li>
+			</extraMeleeDamages>
+		</surpriseAttack>
       </li>
       <li>
         <label>head</label>
@@ -49,17 +66,17 @@
           <li>Blunt</li>
         </capacities>
         <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>3.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <chanceFactor>0.2</chanceFactor>
+        <chanceFactor>0.1</chanceFactor>
       </li>
     </tools>
-	
-			
-   
+
+
+
     <race>
       <body>FO_FourEyedQuadruped</body>
-      <predator>true</predator>     
+      <predator>true</predator>
       <baseBodySize>1.5</baseBodySize>
       <baseHungerRate>0.15</baseHungerRate>
       <baseHealthScale>2</baseHealthScale>
@@ -70,6 +87,7 @@
       <gestationPeriodDays>35</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <wildness>0.75</wildness>
+	  <useMeatFrom>Panther</useMeatFrom>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
       <nuzzleMtbHours>45</nuzzleMtbHours>
@@ -104,20 +122,20 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-		<wildBiomes>
-				<IceSheet>0.01</IceSheet>
-			<SeaIce>0.01</SeaIce>
-			<BorealForest>0.1</BorealForest>
-			<Tundra>0.03</Tundra>
-			<ColdBog>0.03</ColdBog>
-			<TemperateForest>0.1</TemperateForest>
-			<TemperateSwamp>0.05</TemperateSwamp>
-			<TropicalRainforest>0.05</TropicalRainforest>
-			<TropicalSwamp>0.04</TropicalSwamp>
-			<AridShrubland>0.04</AridShrubland>
-			<Desert>0.03</Desert>
-			<ExtremeDesert>0.02</ExtremeDesert>      
-	  </wildBiomes>
+      <wildBiomes>
+        <IceSheet>0.01</IceSheet>
+        <SeaIce>0.01</SeaIce>
+        <BorealForest>0.1</BorealForest>
+        <Tundra>0.03</Tundra>
+        <ColdBog>0.03</ColdBog>
+        <TemperateForest>0.1</TemperateForest>
+        <TemperateSwamp>0.05</TemperateSwamp>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <TropicalSwamp>0.04</TropicalSwamp>
+        <AridShrubland>0.04</AridShrubland>
+        <Desert>0.03</Desert>
+        <ExtremeDesert>0.02</ExtremeDesert>
+      </wildBiomes>
     </race>
     <tradeTags>
       <li>AnimalUncommon</li>
@@ -172,9 +190,9 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-   
+
     <ecoSystemWeight>1.5</ecoSystemWeight>
-   
+
   </PawnKindDef>
 
 </Defs>
