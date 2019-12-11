@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- =========================== Neutral ============================-->
+    <IncidentDef>
+    <defName>FO_BehemotPasses</defName>
+    <label>behemot pass</label>
+		<category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>ForsakensFF.IncidentWorker_BehemotPasses</workerClass>
+    <baseChance>0.7</baseChance>
+    <minRefireDays>13</minRefireDays>
+  </IncidentDef>
+
+  <!--<IncidentDef>
+    <defName>ManhunterPackMurkling</defName>
+    <label>Murkling manhunter pack</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_ManhunterPack</workerClass>
+    <baseChance>4</baseChance>
+    <category>ThreatBig</category>
+    <minRefireDays>10</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>ManhunterPack</tale>
+  </IncidentDef>-->
+</Defs>

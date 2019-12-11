@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<!-- ======================== Projectiles and Effects ======================== -->
+
+
+
+	<SoundDef>
+		<defName>FO_FlameBreathSound</defName>
+		<context>MapOnly</context>
+		<eventNames />
+		<maxSimultaneous>1</maxSimultaneous>
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+						<clipFolderPath>FO_FlameBreath</clipFolderPath>
+					</li>
+				</grains>
+				<pitchRange>
+					<min>0.9652174</min>
+					<max>1.042391</max>
+				</pitchRange>
+			</li>
+		</subSounds>
+	</SoundDef>
+
+	
+
+</Defs>
