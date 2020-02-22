@@ -4,8 +4,10 @@
 	<name>Forsakens: Fauna</name>
 	<author>Kikohi, Trunken, Immortalus and Sarg Bjornson</author>
 	<supportedVersions>
-		<li>1.0</li>
-	</supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+   </supportedVersions>
+   <packageId>forsakens.fauna</packageId>
 	<description>
   This mod adds several new fauna types to your rimworld gameplay experience, content and features requested by the community including the amazing art of our newest teammember and artist Sarg.
 
