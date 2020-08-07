@@ -11,8 +11,6 @@ namespace ForsakensFF
 
         public static PawnKindDef FO_Behemoth;
 
-        public static PawnKindDef FO_Murkling;
-
         public static WeatherDef DryThunderstorm;
     }
 }

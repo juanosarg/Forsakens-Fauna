@@ -55,7 +55,7 @@ namespace ForsakensFF
                     }
                 }
                 map.weatherManager.TransitionTo(ForsakensFF_DefOf.DryThunderstorm);
-                Find.LetterStack.ReceiveLetter(GenText.CapitalizeFirst(TranslatorFormattedStringExtensions.Translate("LetterLabelBehemotPasses", fO_Behemoth.label)), TranslatorFormattedStringExtensions.Translate("LetterBehemotPasses", fO_Behemoth.label), LetterDefOf.PositiveEvent, pawn, null, null);
+                Find.LetterStack.ReceiveLetter("LetterLabelBehemotPasses".Translate(fO_Behemoth.label), "LetterBehemotPasses".Translate(fO_Behemoth.label), LetterDefOf.PositiveEvent, pawn, null, null);
                 result = true;
             }
             return result;
