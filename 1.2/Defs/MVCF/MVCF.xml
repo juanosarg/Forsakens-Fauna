@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<MVCF.ModDef>
+		<defName>FF_ForsakensFauna</defName>
+		<label>Forsakens: Fauna</label>
+		<description>Adding animal ranged attacks for Forsakens: Fauna creatures</description>
+		<Features>
+			<RangedAnimals>true</RangedAnimals>
+			<HediffVerbs>true</HediffVerbs>
+			<IntegratedToggle>true</IntegratedToggle>
+		</Features>
+	</MVCF.ModDef>
+
+
+
+
+
+
+</Defs>
