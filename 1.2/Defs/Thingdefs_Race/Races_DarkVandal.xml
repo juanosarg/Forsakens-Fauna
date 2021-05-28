@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>FO_DarkVandal</defName>
 		<label>dark vandal</label>
-		<description>A creature of pure muscle, the dark vandal is known for its incredible strength. Often seen foraging in groups among the undergrowth, they have gathered renown for their fiercely protective behavior over other members of their brood. Once provoked, the resulting rampage is the last thing many colonies see before their destruction under the might of an enraged pack. Despite its infamous reputation, the beast is still hunted across the Rim, not only for their thick hide or ample supply of meat, but also by warrior societies as a rite of passage.</description>
+		<description>A creature of pure muscle, the Dark Vandal is known for its incredible strength. Often seen foraging in groups among the undergrowth, they have gathered renown for their fiercely protective behavior over other members of their brood. Once provoked, the resulting rampage is the last thing many colonies see before their destruction under the might of an enraged pack. Despite its infamous reputation, the beast is still hunted across the Rim, not only for their thick hide or ample supply of meat, but also by warrior societies as a rite of passage.\n\nSpecial abilities: Dark Vandals will dig searching for truffles if they are hungry. Bear in mind that they can only do so when on top of a diggable terrain.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<MarketValue>200</MarketValue>
@@ -42,7 +42,17 @@
 				<chanceFactor>0.2</chanceFactor>
 			</li>
 		</tools>
+		<comps>
 
+			<li Class="AnimalBehaviours.CompProperties_DigWhenHungry">
+
+				<customThingToDig>FO_BlackTruffles</customThingToDig>
+				<customAmountToDig>15</customAmountToDig>
+				<spawnForbidden>true</spawnForbidden>
+
+			</li>
+			
+		</comps>
 
 
 		<race>
@@ -108,6 +118,27 @@
 			<li>AnimalUncommon</li>
 
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					<li>FO_SecondaryRole</li>
+					<li>FO_PrimaryRole</li>
+					<li>FO_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					<li>FO_Farm</li>
+					<li>FO_ShockTroop</li>
+					<li>FO_No</li>					
+				</statValues>
+				<statDescriptions>
+					<li>FO_FarmFoodDesc</li>
+					<li>FO_ShockTroopDesc</li>
+					<li>FO_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

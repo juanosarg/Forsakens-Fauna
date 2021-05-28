@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>FO_RBehemoth</defName>
 		<label>Behemoth</label>
-		<description>A Forsaken creature, which is believed to reside in the outer star belts. Legends speak of incredibly intelligent and fierce dragons, ruling over whole planets with their devastating fire breaths and incomprehensible power. The thunder is their voice and announces their coming. They were once hundreds, and are now but a few. On the last days of the Forsaken, they will rise again and darken the skies, when the day of judgement comes.</description>
+		<description>A Forsaken creature, which is believed to reside in the outer star belts. Legends speak of incredibly intelligent and fierce dragons, ruling over whole planets with their devastating fire breaths and incomprehensible power. The thunder is their voice and announces their coming. They were once hundreds, and are now but a few. On the last days of the Forsaken, they will rise again and darken the skies, when the day of judgement comes.\n\nSpecial abilities: Behemoths were used as powerful beasts of burden by the Forsakens, and they can defend themselves quite well. Their flame attacks are quite dangerous. They can regenerate their wounds quite fast.</description>
 		<statBases>
 			<MoveSpeed>4</MoveSpeed>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
@@ -102,23 +102,31 @@
 				<chanceFactor>0.1</chanceFactor>
 			</li>
 		</tools>
+		
+		<comps>
+
+			<li Class="AnimalBehaviours.CompProperties_Regeneration">
+				<rateInTicks>60</rateInTicks>
+
+			</li>
+
+		</comps>
 
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
-				<accuracyTouch>0.15</accuracyTouch>
-				<accuracyShort>0.25</accuracyShort>
-				<accuracyMedium>0.15</accuracyMedium>
-				<accuracyLong>0.1</accuracyLong>
+				<accuracyTouch>1</accuracyTouch>
+				<accuracyShort>1</accuracyShort>
+				<accuracyMedium>1</accuracyMedium>
+				<accuracyLong>1</accuracyLong>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>FO_FlameBreath</defaultProjectile>
-				<warmupTime>0.6</warmupTime>
+				<defaultProjectile>FF_FlameBreathAnimated</defaultProjectile>
+				<warmupTime>3</warmupTime>
 				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-				<forcedMissRadius>2</forcedMissRadius>
-
-				<burstShotCount>90</burstShotCount>
+				
+				<burstShotCount>1</burstShotCount>
 				<minRange>1</minRange>
-				<range>15</range>
+				<range>20</range>
 				<soundCast>FO_FlameBreathSound</soundCast>
 				<muzzleFlashScale>0</muzzleFlashScale>
 				<label>flame breath</label>
@@ -170,6 +178,27 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					<li>FO_SecondaryRole</li>
+					<li>FO_PrimaryRole</li>
+					<li>FO_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					<li>FO_PackAnimal</li>
+					<li>FO_DamageRangedFire</li>
+					<li>FO_Yes</li>					
+				</statValues>
+				<statDescriptions>
+					<li>FO_PackAnimalDesc</li>
+					<li>FO_DamageRangedFireDesc</li>
+					<li>FO_Ranged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
@@ -212,7 +241,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Animals/FO_ForsakenDragon/FO_ForsakenDragon</texPath>
-					<drawSize>9.75</drawSize>
+					<drawSize>7</drawSize>
 					<shadowData>
 						<volume>(0.95, 0.4, 0.6)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -220,7 +249,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Animals/FO_ForsakenDragon/FO_Dessicated_ForsakenDragon</texPath>
-					<drawSize>9.75</drawSize>
+					<drawSize>7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

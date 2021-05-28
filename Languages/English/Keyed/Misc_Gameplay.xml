@@ -98,6 +98,14 @@
 	<FO_PackAnimalDesc>This is a pack animal, and can carry more weight in caravans than usual.</FO_PackAnimalDesc>
 	<FO_PestDesc>This animal is generally considered a pest, and not useful at all to have around the colony. It either has effects that are purely detrimental, or needs that outweight its usefulness. You may find a niche use for them, though!</FO_PestDesc>
 	<FO_PetDesc>This animal is a pet. Isn't he cute?</FO_PetDesc>
+	
+	
+	<!-- Mod Settings, animal toggles -->
+	
+	<FF_DisableAnimal>Disable {0}</FF_DisableAnimal>
+	<FF_AnimalSpawnMultiplier>Forsakens: Fauna spawn commonality multiplier</FF_AnimalSpawnMultiplier>
+	<FF_AnimalSpawnMultiplierTooltip>This multiplier will affect the spawn changes (commonalities) of ALL animals in this mod. For example, if set to 0.5 animals from the mod will spawn half as much as default (which is 1). If set to 2, you'll get twice as many as default, and so on. This only affects wild spawns.</FF_AnimalSpawnMultiplierTooltip>
+	<FF_Reset>Reset multiplier</FF_Reset>
 
 
 

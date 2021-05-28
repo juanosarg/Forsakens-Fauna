@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>FO_ShadowCharger</defName>
 		<label>shadow charger</label>
-		<description>A creature known for its mighty elongated horns, the shadowcharger is actually rather passive, their horns only being used upon provokation or during mating. Their name is derived from their aggression against potential rivals during mating season, where the females are seen charging and locking horns with each other to secure a mate. While they were once used as battle mounts due to their speed and ability to ram, nowadays they are mostly reared across the rim for their creamy milk and abundant meat.</description>
+		<description>A creature known for its mighty elongated horns, the Shadow Charger is actually rather passive, their horns only being used upon provocation or during mating. Their name is derived from their aggression against potential rivals during mating season, where the females are seen charging and locking horns with each other to secure a mate. While they were once used as battle mounts due to their speed and ability to ram, nowadays they are mostly reared across the rim for their creamy milk and abundant meat.\n\nSpecial abilities: Shadow chargers provide very good amounts of milk, and they can defend themselves much better than cows.</description>
 		<statBases>
 			<MoveSpeed>3.50</MoveSpeed>
 			<ComfyTemperatureMin>-35</ComfyTemperatureMin>
@@ -122,6 +122,26 @@
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					
+					<li>FO_PrimaryRole</li>
+					<li>FO_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					
+					<li>FO_Farm</li>
+					<li>FO_No</li>					
+				</statValues>
+				<statDescriptions>
+					<li>FO_FarmMilkDesc</li>					
+					<li>FO_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">

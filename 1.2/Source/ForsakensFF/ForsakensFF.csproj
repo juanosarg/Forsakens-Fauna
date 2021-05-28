@@ -34,8 +34,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=2.0.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\Lib.Harmony.2.0.0.2\lib\net472\0Harmony.dll</HintPath>
+    <Reference Include="0Harmony, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Lib.Harmony.2.0.4\lib\net472\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Assembly-CSharp">
@@ -299,9 +299,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ForsakensFF_DefOf.cs" />
-    <Compile Include="IncidentWorker_BehemotPasses.cs" />
+    <Compile Include="Defs\FFToggleableSpawnDef.cs" />
+    <Compile Include="DefsOf\ForsakensFF_DefOf.cs" />
+    <Compile Include="Harmony\BiomeDef_CommonalityOfAnimal.cs" />
+    <Compile Include="Harmony\HarmonyInstance.cs" />
+    <Compile Include="Harmony\WildAnimalSpawner_SpawnRandomWildAnimalAt.cs" />
+    <Compile Include="Incidents\IncidentWorker_BehemotPasses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\ForsakensFauna_Settings.cs" />
+    <Compile Include="Settings\ForsakensFauna_SettingsController.cs" />
+    <Compile Include="Settings\SettingsHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

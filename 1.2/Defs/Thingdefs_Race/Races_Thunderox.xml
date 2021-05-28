@@ -136,6 +136,26 @@
 			<li>AnimalCommon</li>
 			<li>AnimalFarm</li>
 		</tradeTags>
+		<modExtensions>
+			<li Class="AnimalBehaviours.AnimalStatExtension">
+
+				<statToAdd>
+					
+					<li>FO_PrimaryRole</li>
+					<li>FO_RangedAttacks</li>					
+				</statToAdd>
+				<statValues>
+					
+					<li>FO_Farm</li>
+					<li>FO_No</li>					
+				</statValues>
+				<statDescriptions>
+					<li>FO_FarmWoolAndMilkDesc</li>					
+					<li>FO_NoRanged</li>
+				</statDescriptions>
+
+			</li>
+		</modExtensions>
 	</ThingDef>
 	<PawnKindDef ParentName="AnimalKindBase">
 		<defName>FO_Thunderox</defName>
