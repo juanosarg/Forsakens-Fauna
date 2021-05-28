@@ -73,6 +73,7 @@
 			<commonality>0.001</commonality>
 			<statFactors>
 				<MaxHitPoints>1.55</MaxHitPoints>
+				<Beauty>2.8</Beauty>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>

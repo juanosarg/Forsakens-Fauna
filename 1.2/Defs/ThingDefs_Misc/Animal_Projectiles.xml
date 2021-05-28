@@ -52,7 +52,7 @@
 		<lifeTimeDuration>50</lifeTimeDuration>
 		<widthScaleFactor>0.65</widthScaleFactor>
 		<heightScaleFactor>1</heightScaleFactor>
-		<startingPositionOffset>(1.8,0,-2)</startingPositionOffset>
+		<startingPositionOffset>(2,0,-2)</startingPositionOffset>
 		<totalSizeScale>2</totalSizeScale>
 		<tickFrameRate>4</tickFrameRate>
 		<finalTickFrameRate>5</finalTickFrameRate>
