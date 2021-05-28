@@ -4,7 +4,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>FO_DarkVandal</defName>
 		<label>dark vandal</label>
-		<description>A creature of pure muscle, the dark vandal is known for its incredible strength. Often seen foraging in groups among the undergrowth, they have gathered renown for their fiercely protective behavior over other members of blood. Once provoked, the resulting rampage is the last thing many colonies see before their destruction under the might of an enraged pack. Despite its infamous reputation, the beast is still hunted across the rims, not only for their thick hide or ample supply of meat, but also by warrior societies as a rite of passage.</description>
+		<description>A creature of pure muscle, the dark vandal is known for its incredible strength. Often seen foraging in groups among the undergrowth, they have gathered renown for their fiercely protective behavior over other members of their brood. Once provoked, the resulting rampage is the last thing many colonies see before their destruction under the might of an enraged pack. Despite its infamous reputation, the beast is still hunted across the Rim, not only for their thick hide or ample supply of meat, but also by warrior societies as a rite of passage.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<MarketValue>200</MarketValue>
