@@ -46,6 +46,7 @@
 		</statBases>
 		<ingestible>
 			<foodType>VegetableOrFruit</foodType>
+			<specialThoughtAsIngredient>FF_AteBlackTruffleIngredient</specialThoughtAsIngredient>
 		</ingestible>
 		<comps>
 			<li Class="CompProperties_Rottable">

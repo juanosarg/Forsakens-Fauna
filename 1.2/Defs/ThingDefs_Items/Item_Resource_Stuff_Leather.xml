@@ -13,7 +13,7 @@
 		<graphicData>
 			<texPath>Resource/FO_Chitin</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(43,43,43)</color>
+			<color>(45,45,57)</color>
 		</graphicData>
 		<statBases>
 			<MarketValue>6.2</MarketValue>
@@ -22,7 +22,7 @@
 			<StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
 		</statBases>
 		<stuffProps>
-			<color>(43,43,43)</color>
+			<color>(45,45,57)</color>
 			<commonality>0</commonality>
 			<statFactors>
 				<MaxHitPoints>1.5</MaxHitPoints>
