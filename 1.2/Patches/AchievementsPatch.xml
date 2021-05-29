@@ -33,7 +33,7 @@
 							<tracker Class="AchievementsExpanded.KindDefTracker">
 								<kindDefs>
 									<li>
-										<key>FO_RBehemoth</key>
+										<key>FO_Behemoth</key>
 										<value>1</value>
 									</li>
 								</kindDefs>
@@ -49,7 +49,7 @@
 							<description>Kill a fearsome Behemoth</description>
 
 							<tracker Class="AchievementsExpanded.KillTracker">
-								<kindDef>FO_RBehemoth</kindDef>
+								<kindDef>FO_Behemoth</kindDef>
 								<count>1</count>
 							</tracker>
 
@@ -73,7 +73,7 @@
 										<value>1</value>
 									</li>
 									<li>
-										<key>FO_RMurkling</key>
+										<key>FO_Murkling</key>
 										<value>1</value>
 									</li>
 									<li>
@@ -110,7 +110,7 @@
 										<value>1</value>
 									</li>
 									<li>
-										<key>FO_RMurkling</key>
+										<key>FO_Murkling</key>
 										<value>1</value>
 									</li>
 									<li>
