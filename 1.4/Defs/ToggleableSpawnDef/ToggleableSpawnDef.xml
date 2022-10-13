@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+	<ForsakensFF.FFToggleableSpawnDef>
+		<defName>FF_ToggleableAnimals</defName>
+		<toggleablePawns>			
+			<li>FO_Thunderox</li>
+			<li>FO_DuskProwler</li>	
+			<li>FO_Murkling</li>
+			<li>FO_ShadowCharger</li>
+			<li>FO_DarkVandal</li>
+		</toggleablePawns>							
+	</ForsakensFF.FFToggleableSpawnDef>
+
+
+
+
+
+</Defs>
